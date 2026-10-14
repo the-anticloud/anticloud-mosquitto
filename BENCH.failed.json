@@ -1,0 +1,10 @@
+{
+  "project": "MOSQUITTO",
+  "category": "CONSUMER_APPLIANCES",
+  "path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\CONSUMER_APPLIANCES\\MOSQUITTO",
+  "status": "failed",
+  "reason": "unreadable BENCH.json: 'metrics'",
+  "files_count": null,
+  "lines_of_code": null,
+  "sha": null
+}
