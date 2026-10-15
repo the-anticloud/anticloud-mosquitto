@@ -1,0 +1,1017 @@
+{
+  "schema": "anticloud.tier-bench/1",
+  "project": "MOSQUITTO",
+  "source": {
+    "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\CONSUMER_APPLIANCES\\MOSQUITTO\\UPSTREAM_CLONE",
+    "git": {
+      "head": "6aaba32614eb1160ddbfeafd616f9f67e7914a41",
+      "url": "https://github.com/eclipse/mosquitto",
+      "branch": "master",
+      "committed_at": "2026-09-03T13:43:20+01:00"
+    }
+  },
+  "metrics": {
+    "files_total": 828,
+    "source_files_scanned": 351,
+    "lines_of_code": 82487,
+    "languages": {
+      ".md": 248,
+      ".c": 203,
+      ".h": 79,
+      "(none)": 43,
+      ".txt": 32,
+      ".png": 32,
+      ".cpp": 27,
+      ".sh": 17,
+      ".yml": 16,
+      ".jpg": 15,
+      ".conf": 13,
+      ".js": 12,
+      ".py": 10,
+      ".tmpl": 9,
+      ".json": 8
+    }
+  },
+  "licence": {
+    "spdx": "EPL-2.0",
+    "class": "B",
+    "source_file": "LICENSE.txt",
+    "redistribution_allowed": false
+  },
+  "dependencies": {
+    "count": 25,
+    "unique": 22,
+    "by_ecosystem": {
+      "native": 16,
+      "vcpkg": 9
+    },
+    "list": [
+      {
+        "ecosystem": "native",
+        "name": "cJSON",
+        "version": "",
+        "source_file": "CMakeLists.txt",
+        "raw": "find_package(cJSON"
+      },
+      {
+        "ecosystem": "native",
+        "name": "argon2",
+        "version": "",
+        "source_file": "CMakeLists.txt",
+        "raw": "find_package(argon2"
+      },
+      {
+        "ecosystem": "native",
+        "name": "LineEditing",
+        "version": "",
+        "source_file": "CMakeLists.txt",
+        "raw": "find_package(LineEditing"
+      },
+      {
+        "ecosystem": "native",
+        "name": "PkgConfig",
+        "version": "",
+        "source_file": "CMakeLists.txt",
+        "raw": "find_package(PkgConfig"
+      },
+      {
+        "ecosystem": "native",
+        "name": "DLT",
+        "version": "",
+        "source_file": "CMakeLists.txt",
+        "raw": "pkg_check_modules(DLT"
+      },
+      {
+        "ecosystem": "native",
+        "name": "PThreads4W",
+        "version": "",
+        "source_file": "CMakeLists.txt",
+        "raw": "find_package(PThreads4W"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Threads",
+        "version": "",
+        "source_file": "CMakeLists.txt",
+        "raw": "find_package(Threads"
+      },
+      {
+        "ecosystem": "native",
+        "name": "OpenSSL",
+        "version": "",
+        "source_file": "CMakeLists.txt",
+        "raw": "find_package(OpenSSL"
+      },
+      {
+        "ecosystem": "native",
+        "name": "GTest",
+        "version": "",
+        "source_file": "CMakeLists.txt",
+        "raw": "find_package(GTest"
+      },
+      {
+        "ecosystem": "vcpkg",
+        "name": "argon2",
+        "version": "",
+        "source_file": "vcpkg.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "vcpkg",
+        "name": "cjson",
+        "version": "",
+        "source_file": "vcpkg.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "vcpkg",
+        "name": "cunit",
+        "version": "",
+        "source_file": "vcpkg.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "vcpkg",
+        "name": "dlfcn-win32",
+        "version": "",
+        "source_file": "vcpkg.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "vcpkg",
+        "name": "gtest",
+        "version": "",
+        "source_file": "vcpkg.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "vcpkg",
+        "name": "libmicrohttpd",
+        "version": "",
+        "source_file": "vcpkg.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "vcpkg",
+        "name": "openssl",
+        "version": "",
+        "source_file": "vcpkg.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "vcpkg",
+        "name": "pthreads",
+        "version": "",
+        "source_file": "vcpkg.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "vcpkg",
+        "name": "sqlite3",
+        "version": "",
+        "source_file": "vcpkg.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "native",
+        "name": "Threads",
+        "version": "",
+        "source_file": "apps/mosquitto_ctrl/CMakeLists.txt",
+        "raw": "find_package(Threads"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Threads",
+        "version": "",
+        "source_file": "client/CMakeLists.txt",
+        "raw": "find_package(Threads"
+      },
+      {
+        "ecosystem": "native",
+        "name": "mallocfail",
+        "version": "",
+        "source_file": "fuzzing/CMakeLists.txt",
+        "raw": "find_package(mallocfail"
+      },
+      {
+        "ecosystem": "native",
+        "name": "SQLite3",
+        "version": "",
+        "source_file": "plugins/CMakeLists.txt",
+        "raw": "find_package(SQLite3"
+      },
+      {
+        "ecosystem": "native",
+        "name": "libmicrohttpd",
+        "version": "",
+        "source_file": "src/CMakeLists.txt",
+        "raw": "pkg_check_modules(libmicrohttpd"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Threads",
+        "version": "",
+        "source_file": "src/CMakeLists.txt",
+        "raw": "find_package(Threads"
+      },
+      {
+        "ecosystem": "native",
+        "name": "libwebsockets",
+        "version": "",
+        "source_file": "src/CMakeLists.txt",
+        "raw": "find_package(libwebsockets"
+      }
+    ]
+  },
+  "owasp_top10": {
+    "total_findings": 349,
+    "files_with_findings": 299,
+    "severity": {
+      "high": 15,
+      "medium": 5,
+      "low": 329
+    },
+    "categories": {
+      "A01-BrokenAccessControl": {
+        "count": 0,
+        "findings": []
+      },
+      "A02-CryptographicFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A03-Injection": {
+        "count": 13,
+        "findings": [
+          {
+            "severity": "high",
+            "file": "apps/mosquitto_ctrl/ctrl_shell.c",
+            "line": 827,
+            "cwe": "CWE-120",
+            "snippet": "sprintf(&str[strlen(str)], \"  \");"
+          },
+          {
+            "severity": "high",
+            "file": "apps/mosquitto_ctrl/ctrl_shell_completion_tree.c",
+            "line": 102,
+            "cwe": "CWE-120",
+            "snippet": "strcpy(new_node->name, name);"
+          },
+          {
+            "severity": "high",
+            "file": "apps/mosquitto_passwd/mosquitto_passwd.c",
+            "line": 90,
+            "cwe": "CWE-120",
+            "snippet": "strcpy((char *)tmpfile_path, \"/tmp/\");"
+          },
+          {
+            "severity": "high",
+            "file": "dashboard/src/lib/chart.umd.js",
+            "line": 13,
+            "cwe": "CWE-95",
+            "snippet": "*/function _t(t){return t+.5|0}const yt=(t,e,i)=>Math.max(Math.min(t,i),e);function vt(t){return yt(_t(2.55*t),0,255)}function Mt(t){return yt(_t(255*t),0,255)}function wt(t){retur"
+          },
+          {
+            "severity": "high",
+            "file": "dashboard/src/lib/hammer.min.js",
+            "line": 6,
+            "cwe": "CWE-78",
+            "snippet": "!function(a,b,c,d){\"use strict\";function e(a,b,c){return setTimeout(j(a,c),b)}function f(a,b,c){return Array.isArray(a)?(g(a,c[b],c),!0):!1}function g(a,b,c){var e;if(a)if(a.forEac"
+          },
+          {
+            "severity": "high",
+            "file": "fuzzing/scripts/oss-fuzz-build.sh",
+            "line": 34,
+            "cwe": "CWE-78",
+            "snippet": "make -j $(nproc)"
+          },
+          {
+            "severity": "high",
+            "file": "lib/srv_mosq.c",
+            "line": 89,
+            "cwe": "CWE-120",
+            "snippet": "sprintf(h, \"_secure-mqtt._tcp.%s\", host);"
+          },
+          {
+            "severity": "high",
+            "file": "libcommon/cjson_common.c",
+            "line": 105,
+            "cwe": "CWE-120",
+            "snippet": "sprintf(&hexval[i*2], \"%02X\", ((uint8_t *)binval)[i]);"
+          },
+          {
+            "severity": "high",
+            "file": "plugins/dynamic-security/kicklist.c",
+            "line": 42,
+            "cwe": "CWE-120",
+            "snippet": "strcpy(kick->username, username);"
+          },
+          {
+            "severity": "high",
+            "file": "plugins/persist-sqlite/plugin.c",
+            "line": 87,
+            "cwe": "CWE-120",
+            "snippet": "sprintf(plg_data.db_file, \"%s/mosquitto.sqlite3\", persistence_location);"
+          },
+          {
+            "severity": "high",
+            "file": "src/conf.c",
+            "line": 2745,
+            "cwe": "CWE-120",
+            "snippet": "strcpy(topic, token + 1);"
+          },
+          {
+            "severity": "high",
+            "file": "src/service.c",
+            "line": 118,
+            "cwe": "CWE-120",
+            "snippet": "strcat(conf_path, \"\\\\mosquitto.conf\");"
+          },
+          {
+            "severity": "high",
+            "file": "src/subs.c",
+            "line": 186,
+            "cwe": "CWE-120",
+            "snippet": "strcpy(leaf->topic_filter, sub->topic_filter);"
+          }
+        ]
+      },
+      "A04-InsecureDesign": {
+        "count": 33,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "apps/mosquitto_ctrl/ctrl_shell.c",
+            "line": 221,
+            "cwe": "CWE-",
+            "snippet": "/* FIXME - do something with the error */"
+          },
+          {
+            "severity": "low",
+            "file": "apps/mosquitto_passwd/mosquitto_passwd.c",
+            "line": 650,
+            "cwe": "CWE-",
+            "snippet": "size_t len = strlen(password_file) + strlen(\".backup.XXXXXX\") + 1;"
+          },
+          {
+            "severity": "low",
+            "file": "client/rr_client.c",
+            "line": 424,
+            "cwe": "CWE-",
+            "snippet": "/* FIXME */"
+          },
+          {
+            "severity": "low",
+            "file": "lib/handle_publish.c",
+            "line": 130,
+            "cwe": "CWE-",
+            "snippet": "/* FIXME - should send a DISCONNECT here */"
+          },
+          {
+            "severity": "low",
+            "file": "lib/http_client.c",
+            "line": 166,
+            "cwe": "CWE-",
+            "snippet": "/* FIXME Not supported - send 501 response */"
+          },
+          {
+            "severity": "low",
+            "file": "lib/packet_mosq.c",
+            "line": 558,
+            "cwe": "CWE-",
+            "snippet": "/* FIXME - client case for incoming message received from broker too large */"
+          },
+          {
+            "severity": "low",
+            "file": "lib/send_publish.c",
+            "line": 286,
+            "cwe": "CWE-",
+            "snippet": "/* FIXME - Properties too big, don't publish any - should remove some first really */"
+          },
+          {
+            "severity": "low",
+            "file": "lib/srv_mosq.c",
+            "line": 48,
+            "cwe": "CWE-",
+            "snippet": "// FIXME - choose which answer to use based on rfc2782 page 3. */"
+          },
+          {
+            "severity": "low",
+            "file": "lib/util_mosq.c",
+            "line": 126,
+            "cwe": "CWE-",
+            "snippet": "/* FIXME - this would be better with atomic increment, but this is safer"
+          },
+          {
+            "severity": "low",
+            "file": "libcommon/utf8_common.c",
+            "line": 47,
+            "cwe": "CWE-",
+            "snippet": "/* 110xxxxx - 2 byte sequence */"
+          },
+          {
+            "severity": "low",
+            "file": "plugins/acl-file/acl_check.c",
+            "line": 41,
+            "cwe": "CWE-",
+            "snippet": "// FIXME if(ed->client->bridge) return MOSQ_ERR_SUCCESS;"
+          },
+          {
+            "severity": "low",
+            "file": "plugins/dynamic-security/acl.c",
+            "line": 28,
+            "cwe": "CWE-",
+            "snippet": "/* FIXME - CACHE! */"
+          },
+          {
+            "severity": "low",
+            "file": "plugins/dynamic-security/clients.c",
+            "line": 833,
+            "cwe": "CWE-",
+            "snippet": "/* FIXME - This is the one call that will result in modification on internal error - note that groups have already been modified */"
+          },
+          {
+            "severity": "low",
+            "file": "plugins/password-file/password_check.c",
+            "line": 39,
+            "cwe": "CWE-",
+            "snippet": "// FIXME if(ed->client->bridge) return MOSQ_ERR_SUCCESS;"
+          },
+          {
+            "severity": "low",
+            "file": "src/database.c",
+            "line": 582,
+            "cwe": "CWE-",
+            "snippet": "* sent regardless. FIXME - this does mean retained messages will received"
+          },
+          {
+            "severity": "low",
+            "file": "src/handle_auth.c",
+            "line": 112,
+            "cwe": "CWE-",
+            "snippet": "mosquitto_property_free_all(&properties); /* FIXME - TEMPORARY UNTIL PROPERTIES PROCESSED */"
+          },
+          {
+            "severity": "low",
+            "file": "src/handle_connect.c",
+            "line": 101,
+            "cwe": "CWE-",
+            "snippet": "/* FIXME - does anything need to be done here? */"
+          },
+          {
+            "severity": "low",
+            "file": "src/handle_disconnect.c",
+            "line": 49,
+            "cwe": "CWE-",
+            "snippet": "/* FIXME - must handle reason code */"
+          },
+          {
+            "severity": "low",
+            "file": "src/handle_publish.c",
+            "line": 182,
+            "cwe": "CWE-",
+            "snippet": "/* FIXME - this is no longer necessary due to failing early above */"
+          },
+          {
+            "severity": "low",
+            "file": "src/handle_subscribe.c",
+            "line": 76,
+            "cwe": "CWE-",
+            "snippet": "/* FIXME - it would be better if property__read_all() returned"
+          },
+          {
+            "severity": "low",
+            "file": "src/handle_unsubscribe.c",
+            "line": 71,
+            "cwe": "CWE-",
+            "snippet": "/* FIXME - it would be better if property__read_all() returned"
+          },
+          {
+            "severity": "low",
+            "file": "src/http_serv.c",
+            "line": 115,
+            "cwe": "CWE-",
+            "snippet": "// FIXME - deal with partial read !"
+          },
+          {
+            "severity": "low",
+            "file": "src/keepalive.c",
+            "line": 152,
+            "cwe": "CWE-",
+            "snippet": "/* FIXME - find the actual next entry without having to iterate over"
+          },
+          {
+            "severity": "low",
+            "file": "src/logging.c",
+            "line": 181,
+            "cwe": "CWE-",
+            "snippet": "/* FIXME - do something for all destinations! */"
+          },
+          {
+            "severity": "low",
+            "file": "src/loop.c",
+            "line": 248,
+            "cwe": "CWE-",
+            "snippet": "/* Extremely hacky, should be using the lws provided external poll"
+          }
+        ]
+      },
+      "A05-SecurityMisconfiguration": {
+        "count": 6,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "apps/mosquitto_ctrl/options.c",
+            "line": 219,
+            "cwe": "CWE-1188",
+            "snippet": "}else if(!strcmp(argv[0], \"--insecure\")){"
+          },
+          {
+            "severity": "medium",
+            "file": "client/client_shared.c",
+            "line": 707,
+            "cwe": "CWE-1188",
+            "snippet": "}else if(!strcmp(argv[i], \"--insecure\")){"
+          },
+          {
+            "severity": "medium",
+            "file": "client/pub_client.c",
+            "line": 431,
+            "cwe": "CWE-1188",
+            "snippet": "printf(\"                       [--ciphers ciphers] [--insecure]\\n\");"
+          },
+          {
+            "severity": "medium",
+            "file": "client/rr_client.c",
+            "line": 189,
+            "cwe": "CWE-1188",
+            "snippet": "printf(\"                      [--ciphers ciphers] [--insecure]\\n\");"
+          },
+          {
+            "severity": "medium",
+            "file": "client/sub_client.c",
+            "line": 257,
+            "cwe": "CWE-1188",
+            "snippet": "printf(\"                       [--ciphers ciphers] [--insecure]\\n\");"
+          },
+          {
+            "severity": "high",
+            "file": "src/http_api.c",
+            "line": 150,
+            "cwe": "CWE-942",
+            "snippet": "ret = MHD_add_response_header(response, \"Access-Control-Allow-Origin\", \"*\");"
+          }
+        ]
+      },
+      "A06-VulnerableComponents": {
+        "count": 0,
+        "findings": []
+      },
+      "A07-AuthFailures": {
+        "count": 1,
+        "findings": [
+          {
+            "severity": "high",
+            "file": "misc/currentcost/cc128_log_mysql.pl",
+            "line": 33,
+            "cwe": "CWE-798",
+            "snippet": "my $dbpassword = \"<your password>\";"
+          }
+        ]
+      },
+      "A08-SoftwareDataIntegrity": {
+        "count": 296,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "apps/db_dump/db_dump.c",
+            "line": 11,
+            "cwe": "CWE-319",
+            "snippet": "http://www.eclipse.org/org/documents/edl-v10.php."
+          },
+          {
+            "severity": "low",
+            "file": "apps/db_dump/db_dump.h",
+            "line": 13,
+            "cwe": "CWE-319",
+            "snippet": "http://www.eclipse.org/org/documents/edl-v10.php."
+          },
+          {
+            "severity": "low",
+            "file": "apps/db_dump/json.c",
+            "line": 11,
+            "cwe": "CWE-319",
+            "snippet": "http://www.eclipse.org/org/documents/edl-v10.php."
+          },
+          {
+            "severity": "low",
+            "file": "apps/db_dump/print.c",
+            "line": 11,
+            "cwe": "CWE-319",
+            "snippet": "http://www.eclipse.org/org/documents/edl-v10.php."
+          },
+          {
+            "severity": "low",
+            "file": "apps/mosquitto_ctrl/broker.c",
+            "line": 11,
+            "cwe": "CWE-319",
+            "snippet": "http://www.eclipse.org/org/documents/edl-v10.php."
+          },
+          {
+            "severity": "low",
+            "file": "apps/mosquitto_ctrl/client.c",
+            "line": 11,
+            "cwe": "CWE-319",
+            "snippet": "http://www.eclipse.org/org/documents/edl-v10.php."
+          },
+          {
+            "severity": "low",
+            "file": "apps/mosquitto_ctrl/ctrl_shell.c",
+            "line": 11,
+            "cwe": "CWE-319",
+            "snippet": "http://www.eclipse.org/org/documents/edl-v10.php."
+          },
+          {
+            "severity": "low",
+            "file": "apps/mosquitto_ctrl/ctrl_shell.h",
+            "line": 11,
+            "cwe": "CWE-319",
+            "snippet": "http://www.eclipse.org/org/documents/edl-v10.php."
+          },
+          {
+            "severity": "low",
+            "file": "apps/mosquitto_ctrl/ctrl_shell_broker.c",
+            "line": 11,
+            "cwe": "CWE-319",
+            "snippet": "http://www.eclipse.org/org/documents/edl-v10.php."
+          },
+          {
+            "severity": "low",
+            "file": "apps/mosquitto_ctrl/ctrl_shell_client.c",
+            "line": 11,
+            "cwe": "CWE-319",
+            "snippet": "http://www.eclipse.org/org/documents/edl-v10.php."
+          },
+          {
+            "severity": "low",
+            "file": "apps/mosquitto_ctrl/ctrl_shell_completion_tree.c",
+            "line": 11,
+            "cwe": "CWE-319",
+            "snippet": "http://www.eclipse.org/org/documents/edl-v10.php."
+          },
+          {
+            "severity": "low",
+            "file": "apps/mosquitto_ctrl/ctrl_shell_dynsec.c",
+            "line": 11,
+            "cwe": "CWE-319",
+            "snippet": "http://www.eclipse.org/org/documents/edl-v10.php."
+          },
+          {
+            "severity": "low",
+            "file": "apps/mosquitto_ctrl/ctrl_shell_internal.h",
+            "line": 11,
+            "cwe": "CWE-319",
+            "snippet": "http://www.eclipse.org/org/documents/edl-v10.php."
+          },
+          {
+            "severity": "low",
+            "file": "apps/mosquitto_ctrl/ctrl_shell_io.c",
+            "line": 11,
+            "cwe": "CWE-319",
+            "snippet": "http://www.eclipse.org/org/documents/edl-v10.php."
+          },
+          {
+            "severity": "low",
+            "file": "apps/mosquitto_ctrl/ctrl_shell_post_connect.c",
+            "line": 11,
+            "cwe": "CWE-319",
+            "snippet": "http://www.eclipse.org/org/documents/edl-v10.php."
+          },
+          {
+            "severity": "low",
+            "file": "apps/mosquitto_ctrl/ctrl_shell_pre_connect.c",
+            "line": 11,
+            "cwe": "CWE-319",
+            "snippet": "http://www.eclipse.org/org/documents/edl-v10.php."
+          },
+          {
+            "severity": "low",
+            "file": "apps/mosquitto_ctrl/ctrl_shell_printf.c",
+            "line": 11,
+            "cwe": "CWE-319",
+            "snippet": "http://www.eclipse.org/org/documents/edl-v10.php."
+          },
+          {
+            "severity": "low",
+            "file": "apps/mosquitto_ctrl/dynsec.c",
+            "line": 11,
+            "cwe": "CWE-319",
+            "snippet": "http://www.eclipse.org/org/documents/edl-v10.php."
+          },
+          {
+            "severity": "low",
+            "file": "apps/mosquitto_ctrl/dynsec_client.c",
+            "line": 11,
+            "cwe": "CWE-319",
+            "snippet": "http://www.eclipse.org/org/documents/edl-v10.php."
+          },
+          {
+            "severity": "low",
+            "file": "apps/mosquitto_ctrl/dynsec_group.c",
+            "line": 11,
+            "cwe": "CWE-319",
+            "snippet": "http://www.eclipse.org/org/documents/edl-v10.php."
+          },
+          {
+            "severity": "low",
+            "file": "apps/mosquitto_ctrl/dynsec_role.c",
+            "line": 11,
+            "cwe": "CWE-319",
+            "snippet": "http://www.eclipse.org/org/documents/edl-v10.php."
+          },
+          {
+            "severity": "low",
+            "file": "apps/mosquitto_ctrl/example.c",
+            "line": 11,
+            "cwe": "CWE-319",
+            "snippet": "http://www.eclipse.org/org/documents/edl-v10.php."
+          },
+          {
+            "severity": "low",
+            "file": "apps/mosquitto_ctrl/mosquitto_ctrl.c",
+            "line": 11,
+            "cwe": "CWE-319",
+            "snippet": "http://www.eclipse.org/org/documents/edl-v10.php."
+          },
+          {
+            "severity": "low",
+            "file": "apps/mosquitto_ctrl/mosquitto_ctrl.h",
+            "line": 11,
+            "cwe": "CWE-319",
+            "snippet": "http://www.eclipse.org/org/documents/edl-v10.php."
+          },
+          {
+            "severity": "low",
+            "file": "apps/mosquitto_ctrl/options.c",
+            "line": 11,
+            "cwe": "CWE-319",
+            "snippet": "http://www.eclipse.org/org/documents/edl-v10.php."
+          }
+        ]
+      },
+      "A09-LoggingMonitoringFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A10-SSRF": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "owasp_llm_top10": {
+    "total_findings": 0,
+    "files_with_findings": 0,
+    "severity": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "categories": {
+      "LLM01-PromptInjection": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM02-SensitiveInfoDisclosure": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM03-SupplyChain": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM04-DataPoisoning": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM05-ImproperOutputHandling": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM06-ExcessiveAgency": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM07-SystemPromptLeak": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM08-VectorEmbeddingWeaknesses": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM09-Misinformation": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM10-UnboundedConsumption": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "sbom": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "serialNumber": "urn:uuid:d583fda0-cf87-5550-812a-0fc5125b2499",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-10-05T15:12:25Z",
+      "component": {
+        "type": "application",
+        "name": "MOSQUITTO",
+        "version": "6aaba32614eb",
+        "bom-ref": "pkg:generic/anticloud/MOSQUITTO@6aaba32614eb",
+        "purl": "pkg:generic/anticloud/MOSQUITTO@6aaba32614eb",
+        "licenses": [
+          {
+            "license": {
+              "id": "EPL-2.0"
+            }
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "anticloud:source-commit",
+          "value": "6aaba32614eb1160ddbfeafd616f9f67e7914a41"
+        },
+        {
+          "name": "anticloud:source-url",
+          "value": "https://github.com/eclipse/mosquitto"
+        },
+        {
+          "name": "anticloud:tier",
+          "value": "tier-agent"
+        }
+      ]
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "cJSON",
+        "version": "unspecified",
+        "purl": "pkg:generic/cJSON",
+        "bom-ref": "native/cJSON@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "argon2",
+        "version": "unspecified",
+        "purl": "pkg:generic/argon2",
+        "bom-ref": "native/argon2@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "LineEditing",
+        "version": "unspecified",
+        "purl": "pkg:generic/LineEditing",
+        "bom-ref": "native/LineEditing@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "PkgConfig",
+        "version": "unspecified",
+        "purl": "pkg:generic/PkgConfig",
+        "bom-ref": "native/PkgConfig@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "DLT",
+        "version": "unspecified",
+        "purl": "pkg:generic/DLT",
+        "bom-ref": "native/DLT@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "PThreads4W",
+        "version": "unspecified",
+        "purl": "pkg:generic/PThreads4W",
+        "bom-ref": "native/PThreads4W@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "Threads",
+        "version": "unspecified",
+        "purl": "pkg:generic/Threads",
+        "bom-ref": "native/Threads@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "OpenSSL",
+        "version": "unspecified",
+        "purl": "pkg:generic/OpenSSL",
+        "bom-ref": "native/OpenSSL@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "GTest",
+        "version": "unspecified",
+        "purl": "pkg:generic/GTest",
+        "bom-ref": "native/GTest@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "argon2",
+        "version": "unspecified",
+        "purl": "pkg:generic/argon2",
+        "bom-ref": "vcpkg/argon2@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "cjson",
+        "version": "unspecified",
+        "purl": "pkg:generic/cjson",
+        "bom-ref": "vcpkg/cjson@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "cunit",
+        "version": "unspecified",
+        "purl": "pkg:generic/cunit",
+        "bom-ref": "vcpkg/cunit@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "dlfcn-win32",
+        "version": "unspecified",
+        "purl": "pkg:generic/dlfcn-win32",
+        "bom-ref": "vcpkg/dlfcn-win32@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "gtest",
+        "version": "unspecified",
+        "purl": "pkg:generic/gtest",
+        "bom-ref": "vcpkg/gtest@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "libmicrohttpd",
+        "version": "unspecified",
+        "purl": "pkg:generic/libmicrohttpd",
+        "bom-ref": "vcpkg/libmicrohttpd@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "openssl",
+        "version": "unspecified",
+        "purl": "pkg:generic/openssl",
+        "bom-ref": "vcpkg/openssl@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "pthreads",
+        "version": "unspecified",
+        "purl": "pkg:generic/pthreads",
+        "bom-ref": "vcpkg/pthreads@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "sqlite3",
+        "version": "unspecified",
+        "purl": "pkg:generic/sqlite3",
+        "bom-ref": "vcpkg/sqlite3@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "mallocfail",
+        "version": "unspecified",
+        "purl": "pkg:generic/mallocfail",
+        "bom-ref": "native/mallocfail@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "SQLite3",
+        "version": "unspecified",
+        "purl": "pkg:generic/SQLite3",
+        "bom-ref": "native/SQLite3@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "libmicrohttpd",
+        "version": "unspecified",
+        "purl": "pkg:generic/libmicrohttpd",
+        "bom-ref": "native/libmicrohttpd@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "libwebsockets",
+        "version": "unspecified",
+        "purl": "pkg:generic/libwebsockets",
+        "bom-ref": "native/libwebsockets@unspecified"
+      }
+    ]
+  },
+  "elapsed_seconds": 328.74
+}

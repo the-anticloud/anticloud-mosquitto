@@ -1,0 +1,193 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:d583fda0-cf87-5550-812a-0fc5125b2499",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-05T15:12:25Z",
+    "component": {
+      "type": "application",
+      "name": "MOSQUITTO",
+      "version": "6aaba32614eb",
+      "bom-ref": "pkg:generic/anticloud/MOSQUITTO@6aaba32614eb",
+      "purl": "pkg:generic/anticloud/MOSQUITTO@6aaba32614eb",
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-2.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "6aaba32614eb1160ddbfeafd616f9f67e7914a41"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/eclipse/mosquitto"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "cJSON",
+      "version": "unspecified",
+      "purl": "pkg:generic/cJSON",
+      "bom-ref": "native/cJSON@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "argon2",
+      "version": "unspecified",
+      "purl": "pkg:generic/argon2",
+      "bom-ref": "native/argon2@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "LineEditing",
+      "version": "unspecified",
+      "purl": "pkg:generic/LineEditing",
+      "bom-ref": "native/LineEditing@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "PkgConfig",
+      "version": "unspecified",
+      "purl": "pkg:generic/PkgConfig",
+      "bom-ref": "native/PkgConfig@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "DLT",
+      "version": "unspecified",
+      "purl": "pkg:generic/DLT",
+      "bom-ref": "native/DLT@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "PThreads4W",
+      "version": "unspecified",
+      "purl": "pkg:generic/PThreads4W",
+      "bom-ref": "native/PThreads4W@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Threads",
+      "version": "unspecified",
+      "purl": "pkg:generic/Threads",
+      "bom-ref": "native/Threads@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "OpenSSL",
+      "version": "unspecified",
+      "purl": "pkg:generic/OpenSSL",
+      "bom-ref": "native/OpenSSL@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "GTest",
+      "version": "unspecified",
+      "purl": "pkg:generic/GTest",
+      "bom-ref": "native/GTest@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "argon2",
+      "version": "unspecified",
+      "purl": "pkg:generic/argon2",
+      "bom-ref": "vcpkg/argon2@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "cjson",
+      "version": "unspecified",
+      "purl": "pkg:generic/cjson",
+      "bom-ref": "vcpkg/cjson@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "cunit",
+      "version": "unspecified",
+      "purl": "pkg:generic/cunit",
+      "bom-ref": "vcpkg/cunit@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "dlfcn-win32",
+      "version": "unspecified",
+      "purl": "pkg:generic/dlfcn-win32",
+      "bom-ref": "vcpkg/dlfcn-win32@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "gtest",
+      "version": "unspecified",
+      "purl": "pkg:generic/gtest",
+      "bom-ref": "vcpkg/gtest@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "libmicrohttpd",
+      "version": "unspecified",
+      "purl": "pkg:generic/libmicrohttpd",
+      "bom-ref": "vcpkg/libmicrohttpd@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "openssl",
+      "version": "unspecified",
+      "purl": "pkg:generic/openssl",
+      "bom-ref": "vcpkg/openssl@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pthreads",
+      "version": "unspecified",
+      "purl": "pkg:generic/pthreads",
+      "bom-ref": "vcpkg/pthreads@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "sqlite3",
+      "version": "unspecified",
+      "purl": "pkg:generic/sqlite3",
+      "bom-ref": "vcpkg/sqlite3@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "mallocfail",
+      "version": "unspecified",
+      "purl": "pkg:generic/mallocfail",
+      "bom-ref": "native/mallocfail@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "SQLite3",
+      "version": "unspecified",
+      "purl": "pkg:generic/SQLite3",
+      "bom-ref": "native/SQLite3@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "libmicrohttpd",
+      "version": "unspecified",
+      "purl": "pkg:generic/libmicrohttpd",
+      "bom-ref": "native/libmicrohttpd@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "libwebsockets",
+      "version": "unspecified",
+      "purl": "pkg:generic/libwebsockets",
+      "bom-ref": "native/libwebsockets@unspecified"
+    }
+  ]
+}
